@@ -1,0 +1,60 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Run daily at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # GitHub token (read-only, public repos + user data)
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GitHub username
+          user: drupesh2008
+          # Repository name
+          repository: drupesh2008/drupesh2008
+          # Output filename
+          filename: metrics.svg
+          # Output branch
+          branch: main
+          # Commit message
+          commit_message: "Update metrics"
+          # Committer
+          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          # Push changes
+          push: true
+          # Template
+          template: classic
+          # Base content
+          base: ""
+          # Core plugins
+          core:
+            - activity
+            - repositories
+            - languages
+            - stars
+            - commits
+            - code
+            - followers
+            - issues
+            - discussions
+            - pullrequests
+            - sponsors
+            - gists
+            - people
+            - traffic
+            - lines
+            - isocalendar
+            - calendar
+            - notepad
+            - music
+            - posts
+            - stars
+            - stargazers
+            - activity
+            - repositories 
