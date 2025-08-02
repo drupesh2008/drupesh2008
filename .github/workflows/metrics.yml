@@ -33,28 +33,25 @@ jobs:
           # Base content
           base: ""
           # Core plugins
-          core:
-            - activity
-            - repositories
-            - languages
-            - stars
-            - commits
-            - code
-            - followers
-            - issues
-            - discussions
-            - pullrequests
-            - sponsors
-            - gists
-            - people
-            - traffic
-            - lines
-            - isocalendar
-            - calendar
-            - notepad
-            - music
-            - posts
-            - stars
-            - stargazers
-            - activity
-            - repositories 
+          core: |
+            activity
+            repositories
+            languages
+            stars
+            commits
+            code
+            followers
+            issues
+            discussions
+            pullrequests
+            sponsors
+            gists
+            people
+            traffic
+            lines
+            isocalendar
+            calendar
+            notepad
+            music
+            posts
+            stargazers 
