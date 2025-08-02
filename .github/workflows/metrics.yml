@@ -17,41 +17,19 @@ jobs:
           # GitHub username
           user: drupesh2008
           # Repository name
-          repository: drupesh2008/drupesh2008
+          repo: drupesh2008/drupesh2008
           # Output filename
           filename: metrics.svg
-          # Output branch
-          branch: main
-          # Commit message
-          commit_message: "Update metrics"
-          # Committer
-          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
-          # Push changes
-          push: true
           # Template
           template: classic
           # Base content
           base: ""
-          # Core plugins
-          core: |
-            activity
-            repositories
-            languages
-            stars
-            commits
-            code
-            followers
-            issues
-            discussions
-            pullrequests
-            sponsors
-            gists
-            people
-            traffic
-            lines
-            isocalendar
-            calendar
-            notepad
-            music
-            posts
-            stargazers 
+          # Core plugins - only essential ones
+          plugin_activity: yes
+          plugin_repositories: yes
+          plugin_languages: yes
+          plugin_stars: yes
+          plugin_commits: yes
+          plugin_followers: yes
+          plugin_issues: yes
+          plugin_pullrequests: yes 

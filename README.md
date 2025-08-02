@@ -50,6 +50,7 @@ Fast Forward to today...
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 
 </td>
 <td width="33%">
@@ -95,6 +96,9 @@ Fast Forward to today...
 ![GDAL](https://img.shields.io/badge/-GDAL-5CAE58?style=flat-square&logo=gdal&logoColor=white)
 ![H3](https://img.shields.io/badge/-H3-2C3E50?style=flat-square&logo=uber&logoColor=white)
 ![GeoPandas](https://img.shields.io/badge/-GeoPandas-306998?style=flat-square&logo=pandas&logoColor=white)
+![Nominatim](https://img.shields.io/badge/-Nominatim-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)
+![OpenStreetMap](https://img.shields.io/badge/-OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white)
+![Libpostal](https://img.shields.io/badge/-Libpostal-FF6B6B?style=flat-square&logo=location&logoColor=white)
 
 </td>
 <td width="33%">
